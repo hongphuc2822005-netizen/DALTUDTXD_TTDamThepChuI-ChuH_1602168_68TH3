@@ -55,30 +55,30 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Pages\HomePage.xaml.cs">
+    <Compile Include="Views\Pages\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Plan2DPage.xaml.cs">
+    <Compile Include="Views\Pages\Plan2DPage.xaml.cs">
       <DependentUpon>Plan2DPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\BeamView.xaml.cs">
-      <DependentUpon>BeamView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\EtabsAPI_FramesView.xaml.cs">
-      <DependentUpon>EtabsAPI_FramesView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\UC_Ribbon.xaml.cs">
-      <DependentUpon>UC_Ribbon.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\UC_Status.xaml.cs">
-      <DependentUpon>UC_Status.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\BeamViewModel.cs" />
     <Compile Include="ViewModels\EtabsAPI_FramesViewModel.cs" />
     <Compile Include="ViewModels\RelayCommand.cs" />
+    <Compile Include="Views\UserControl\BeamView.xaml.cs">
+      <DependentUpon>BeamView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserControl\EtabsAPI_FramesView.xaml.cs">
+      <DependentUpon>EtabsAPI_FramesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserControl\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserControl\UC_Ribbon.xaml.cs">
+      <DependentUpon>UC_Ribbon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserControl\UC_Status.xaml.cs">
+      <DependentUpon>UC_Status.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -91,33 +91,33 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Pages\HomePage.xaml">
+    <Page Include="Views\Pages\HomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Plan2DPage.xaml">
+    <Page Include="Views\Pages\Plan2DPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="UserControl\BeamView.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Views\UserControl\BeamView.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="UserControl\EtabsAPI_FramesView.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Views\UserControl\EtabsAPI_FramesView.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="UserControl\MainWindow.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Views\UserControl\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="UserControl\UC_Ribbon.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Views\UserControl\UC_Ribbon.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="UserControl\UC_Status.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Views\UserControl\UC_Status.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -168,7 +168,7 @@
     <Resource Include="Assets\Images\background.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\" />
+    <Folder Include="Views\UserControl\usercontrol\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
