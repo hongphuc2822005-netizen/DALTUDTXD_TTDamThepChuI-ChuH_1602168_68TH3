@@ -26,3 +26,4 @@ namespace DALTUDTXD_TTDamThepChuI_ChuH_1602168_68TH3.Views.UserControls
             InitializeComponent();
         }
     }
+}
