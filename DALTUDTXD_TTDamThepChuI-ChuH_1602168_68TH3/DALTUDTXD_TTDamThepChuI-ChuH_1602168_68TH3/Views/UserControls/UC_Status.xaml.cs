@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DALTUDTXD_TTDamThepChuI_ChuH_1602168_68TH3.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,16 +14,15 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DALTUDTXD_TTDamThepChuI_ChuH_1602168_68TH3.UserControl
+namespace DALTUDTXD_TTDamThepChuI_ChuH_1602168_68TH3.Views.UserControls
 {
     /// <summary>
-    /// Interaction logic for UC_Ribbon.xaml
+    /// Interaction logic for UC_Status.xaml
     /// </summary>
-    public partial class UC_Ribbon : Page
+    public partial class UC_Status : UserControl
     {
-        public UC_Ribbon()
+        public UC_Status()
         {
             InitializeComponent();
         }
     }
-}

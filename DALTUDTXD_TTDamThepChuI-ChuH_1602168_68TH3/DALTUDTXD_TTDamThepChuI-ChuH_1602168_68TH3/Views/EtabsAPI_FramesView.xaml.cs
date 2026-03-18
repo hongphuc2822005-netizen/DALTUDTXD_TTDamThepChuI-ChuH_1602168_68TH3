@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DALTUDTXD_TTDamThepChuI_ChuH_1602168_68TH3.UserControl
+namespace DALTUDTXD_TTDamThepChuI_ChuH_1602168_68TH3.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for EtabsAPI_FramesView.xaml
     /// </summary>
-    public partial class MainWindow : Page
+    public partial class EtabsAPI_FramesView : Window
     {
-        public MainWindow()
+        public EtabsAPI_FramesView()
         {
             InitializeComponent();
         }

@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DALTUDTXD_TTDamThepChuI_ChuH_1602168_68TH3.UserControl
+namespace DALTUDTXD_TTDamThepChuI_ChuH_1602168_68TH3.Views
 {
     /// <summary>
-    /// Interaction logic for UC_Ribbon.xaml
+    /// Interaction logic for BeamView.xaml
     /// </summary>
-    public partial class UC_Ribbon : Page
+    public partial class BeamView : Window
     {
-        public UC_Ribbon()
+        public BeamView()
         {
             InitializeComponent();
         }
